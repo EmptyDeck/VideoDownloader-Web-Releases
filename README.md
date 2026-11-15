@@ -2,7 +2,7 @@
 
 **Mac only · macOS 13 or later · public beta, not notarized.**
 
-[Download the Mac app](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/download/v0.8.2-public-beta.1/VideoDownloader-Web-0.8.2-macOS-Universal-Public-Beta.dmg) · [All release files and checksums](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/tag/v0.8.2-public-beta.1) · [Privacy policy](https://emptydeck.github.io/VideoDownloader-Web-Releases/privacy.html)
+[Download the Mac app](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/download/v0.8.3-public-beta.1/VideoDownloader-Web-0.8.3-macOS-Universal-Public-Beta.dmg) · [All release files and checksums](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/tag/v0.8.3-public-beta.1) · [Privacy policy](https://emptydeck.github.io/VideoDownloader-Web-Releases/privacy.html)
 
 ## Install and use
 
@@ -13,6 +13,12 @@
 5. Open a permitted video page and click the extension. Download a selected format, or click a heart to save its link to the Mac library. [Try the sample clip](https://emptydeck.github.io/VideoDownloader-Web-Releases/demo.html).
 
 In the Mac library, Space previews and double click plays. Incognito needs **Allow in Incognito**; hearts intentionally remain in the Mac library after private windows close. Downloaded files remain until you delete them.
+
+## App Lock in 0.8.3
+
+Set an optional password in **Settings → App Lock**. Use **⇧⌘L** to lock now. Opening a new app session, closing all windows, hiding the app, or locking/sleeping the Mac locks the interface again. Downloads continue while locked. Change/disable needs the current password; recovery uses macOS owner authentication and keeps the library and files.
+
+Only a salted password verifier is kept in the Mac Keychain. This is an interface lock, not encryption of library/download files or authentication of the existing extension connection. There is no separate menu bar icon; reopen the library from the Dock.
 
 ## What is public
 
