@@ -1,6 +1,6 @@
-# Video Downloader Web —macOS releases
+# Video Downloader Web for macOS
 
-**Mac only. Requires macOS 13 or later and the Video Downloader Web companion app.**
+**Mac only. Requires macOS 13 or later. The Chrome extension requires the running Mac companion.**
 
 This repository is for downloadable application installers, release notes and checksums. The original Swift and Go application sources are maintained privately; they are not included in this repository.
 
@@ -17,3 +17,7 @@ The Mac companion must be installed and running. It starts the local connection 
 Third-party notices and applicable source archives are bundled in the application under `Contents/Resources/ThirdParty`.
 
 Mac 전용입니다. 설치 파일과 릴리스 안내만 공개하며, Swift·Go 원본 코드는 비공개로 유지합니다. 현재는 공개 설치 배포를 준비 중입니다.
+
+## Privacy and contact
+
+[Privacy policy](https://emptydeck.github.io/VideoDownloader-Web-Releases/privacy.html) · [Contact](mailto:imsejikpark@gmail.com)
