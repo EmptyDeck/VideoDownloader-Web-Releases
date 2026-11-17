@@ -2,7 +2,7 @@
 
 **Mac only · macOS 13 or later · public beta, not notarized.**
 
-[Download the Mac app](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/download/v0.8.3-public-beta.1/VideoDownloader-Web-0.8.3-macOS-Universal-Public-Beta.dmg) · [All release files and checksums](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/tag/v0.8.3-public-beta.1) · [Privacy policy](https://emptydeck.github.io/VideoDownloader-Web-Releases/privacy.html)
+[Download the Mac app](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/download/v0.8.4-public-beta.1/VideoDownloader-Web-0.8.4-macOS-Universal-Public-Beta.dmg) · [All release files and checksums](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/tag/v0.8.4-public-beta.1) · [Privacy policy](https://emptydeck.github.io/VideoDownloader-Web-Releases/privacy.html)
 
 ## Install and use
 
@@ -14,7 +14,11 @@
 
 In the Mac library, Space previews and double click plays. Incognito needs **Allow in Incognito**; hearts intentionally remain in the Mac library after private windows close. Downloaded files remain until you delete them.
 
-## App Lock in 0.8.3
+## Mac connection in 0.8.4
+
+Once the Mac app is connected, the extension hides installation steps and download links. If it stops responding, **Open Mac App** and **Check Connection Again** are the main actions. First-time installation/reinstallation links stay inside a collapsed installation guide; an incompatible running app is explicitly labeled as needing an update. The extension remembers only whether this browser profile connected before. A failed connection is not proof that the app is missing, and no downloaded files or Mac directories are scanned.
+
+## App Lock
 
 Set an optional password in **Settings → App Lock**. Use **⇧⌘L** to lock now. Opening a new app session, closing all windows, hiding the app, or locking/sleeping the Mac locks the interface again. Downloads continue while locked. Change/disable needs the current password; recovery uses macOS owner authentication and keeps the library and files.
 
