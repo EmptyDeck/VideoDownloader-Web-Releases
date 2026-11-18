@@ -2,17 +2,21 @@
 
 **Mac only · macOS 13 or later · public beta, not notarized.**
 
-[Download the Mac app](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/download/v0.8.4-public-beta.1/VideoDownloader-Web-0.8.4-macOS-Universal-Public-Beta.dmg) · [All release files and checksums](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/tag/v0.8.4-public-beta.1) · [Privacy policy](https://emptydeck.github.io/VideoDownloader-Web-Releases/privacy.html)
+[Download the Mac app](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/download/v0.8.5-public-beta.1/VideoDownloader-Web-0.8.5-macOS-Universal-Public-Beta.dmg) · [All release files and checksums](https://github.com/EmptyDeck/VideoDownloader-Web-Releases/releases/tag/v0.8.5-public-beta.1) · [Privacy policy](https://emptydeck.github.io/VideoDownloader-Web-Releases/privacy.html)
 
 ## Install and use
 
 1. Download the DMG, open it, and copy **Video Downloader Web.app** to Applications.
 2. Open the app. This beta has an ad-hoc integrity signature and has not been notarized by Apple. If macOS cannot verify the developer, and you trust the official download, first try opening it, then use **System Settings → Privacy & Security → Open Anyway** for this app. See [Apple’s instructions](https://support.apple.com/en-us/102445). Do not disable system-wide security. If macOS reports malware or a damaged download, stop and check the file/checksum instead.
 3. Leave the app running and choose a language once. The local connection starts automatically.
-4. While Chrome Web Store review is pending, open `chrome://extensions`, enable **Developer mode**, choose **Load unpacked**, and select `~/Library/Application Support/VideoDownloaderWeb/ChromeExtension`. The app creates that folder when it runs. The separate Chrome ZIP is an alternative.
+4. For manual installation, open `chrome://extensions`, enable **Developer mode**, choose **Load unpacked**, and select `~/Library/Application Support/VideoDownloaderWeb/ChromeExtension`. The app creates that folder when it runs. The separate Chrome ZIP is an alternative.
 5. Open a permitted video page and click the extension. Download a selected format, or click a heart to save its link to the Mac library. [Try the sample clip](https://emptydeck.github.io/VideoDownloader-Web-Releases/demo.html).
 
 In the Mac library, Space previews and double click plays. Incognito needs **Allow in Incognito**; hearts intentionally remain in the Mac library after private windows close. Downloaded files remain until you delete them.
+
+## Video downloads in 0.8.5
+
+Compatible MP4 keeps the selected resolution and converts incompatible video to H.264. Existing AAC audio is copied. The app checks video data before saving, and preserves previous downloads with the same name. Open an individual Instagram post or Reel to download its complete video. Update the Mac app and Chrome extension together.
 
 ## Mac connection in 0.8.4
 
